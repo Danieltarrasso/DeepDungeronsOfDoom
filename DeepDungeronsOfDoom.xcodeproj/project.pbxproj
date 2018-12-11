@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		866B280C21A48DE4001F0CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B280B21A48DE4001F0CF2 /* AppDelegate.swift */; };
+		866B280E21A48DE4001F0CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B280D21A48DE4001F0CF2 /* ViewController.swift */; };
+		866B281121A48DE4001F0CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866B280F21A48DE4001F0CF2 /* Main.storyboard */; };
+		866B281321A48DE5001F0CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866B281221A48DE5001F0CF2 /* Assets.xcassets */; };
+		866B281621A48DE5001F0CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866B281421A48DE5001F0CF2 /* LaunchScreen.storyboard */; };
+		866B282121A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B282021A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.swift */; };
+		866B282C21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B282B21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.swift */; };
+		866B283A21A48EBA001F0CF2 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B283921A48EBA001F0CF2 /* Hero.swift */; };
+		868673B721A59FAF001577D9 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868673B621A59FAF001577D9 /* Monster.swift */; };
+		868673B921A5A2CD001577D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868673B821A5A2CD001577D9 /* Item.swift */; };
+		868897B321AEDCD900FEA453 /* CreateGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868897B221AEDCD900FEA453 /* CreateGame.swift */; };
+		86C94E5921B6F5C400D62E85 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C94E5821B6F5C400D62E85 /* Dice.swift */; };
+		86C94E5B21B6FA8E00D62E85 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C94E5A21B6FA8E00D62E85 /* PickerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		866B281D21A48DE5001F0CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866B280021A48DE4001F0CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866B280721A48DE4001F0CF2;
+			remoteInfo = DeepDungeronsOfDoom;
+		};
+		866B282821A48DE5001F0CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866B280021A48DE4001F0CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866B280721A48DE4001F0CF2;
+			remoteInfo = DeepDungeronsOfDoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		866B280821A48DE4001F0CF2 /* DeepDungeronsOfDoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDungeronsOfDoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866B280B21A48DE4001F0CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		866B280D21A48DE4001F0CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		866B281021A48DE4001F0CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		866B281221A48DE5001F0CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		866B281521A48DE5001F0CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		866B281721A48DE5001F0CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866B281C21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDungeronsOfDoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		866B282021A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDungeronsOfDoomTests.swift; sourceTree = "<group>"; };
+		866B282221A48DE5001F0CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866B282721A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDungeronsOfDoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		866B282B21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDungeronsOfDoomUITests.swift; sourceTree = "<group>"; };
+		866B282D21A48DE5001F0CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866B283921A48EBA001F0CF2 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		868673B621A59FAF001577D9 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		868673B821A5A2CD001577D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		868897B221AEDCD900FEA453 /* CreateGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGame.swift; sourceTree = "<group>"; };
+		86C94E5821B6F5C400D62E85 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		86C94E5A21B6FA8E00D62E85 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866B280521A48DE4001F0CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866B281921A48DE5001F0CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866B282421A48DE5001F0CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86046A0321ADB93E003BCF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				866B283921A48EBA001F0CF2 /* Hero.swift */,
+				868673B621A59FAF001577D9 /* Monster.swift */,
+				868673B821A5A2CD001577D9 /* Item.swift */,
+				86C94E5821B6F5C400D62E85 /* Dice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		866B27FF21A48DE4001F0CF2 = {
+			isa = PBXGroup;
+			children = (
+				866B280A21A48DE4001F0CF2 /* DeepDungeronsOfDoom */,
+				866B281F21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests */,
+				866B282A21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests */,
+				866B280921A48DE4001F0CF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		866B280921A48DE4001F0CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866B280821A48DE4001F0CF2 /* DeepDungeronsOfDoom.app */,
+				866B281C21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.xctest */,
+				866B282721A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866B280A21A48DE4001F0CF2 /* DeepDungeronsOfDoom */ = {
+			isa = PBXGroup;
+			children = (
+				868897B121AEDC0F00FEA453 /* Controller */,
+				86046A0321ADB93E003BCF36 /* Model */,
+				866B280B21A48DE4001F0CF2 /* AppDelegate.swift */,
+				86C94E5A21B6FA8E00D62E85 /* PickerViewController.swift */,
+				866B280D21A48DE4001F0CF2 /* ViewController.swift */,
+				866B280F21A48DE4001F0CF2 /* Main.storyboard */,
+				866B281221A48DE5001F0CF2 /* Assets.xcassets */,
+				866B281421A48DE5001F0CF2 /* LaunchScreen.storyboard */,
+				866B281721A48DE5001F0CF2 /* Info.plist */,
+			);
+			path = DeepDungeronsOfDoom;
+			sourceTree = "<group>";
+		};
+		866B281F21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				866B282021A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.swift */,
+				866B282221A48DE5001F0CF2 /* Info.plist */,
+			);
+			path = DeepDungeronsOfDoomTests;
+			sourceTree = "<group>";
+		};
+		866B282A21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				866B282B21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.swift */,
+				866B282D21A48DE5001F0CF2 /* Info.plist */,
+			);
+			path = DeepDungeronsOfDoomUITests;
+			sourceTree = "<group>";
+		};
+		868897B121AEDC0F00FEA453 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				868897B221AEDCD900FEA453 /* CreateGame.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866B280721A48DE4001F0CF2 /* DeepDungeronsOfDoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866B283021A48DE5001F0CF2 /* Build configuration list for PBXNativeTarget "DeepDungeronsOfDoom" */;
+			buildPhases = (
+				866B280421A48DE4001F0CF2 /* Sources */,
+				866B280521A48DE4001F0CF2 /* Frameworks */,
+				866B280621A48DE4001F0CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepDungeronsOfDoom;
+			productName = DeepDungeronsOfDoom;
+			productReference = 866B280821A48DE4001F0CF2 /* DeepDungeronsOfDoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		866B281B21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866B283321A48DE5001F0CF2 /* Build configuration list for PBXNativeTarget "DeepDungeronsOfDoomTests" */;
+			buildPhases = (
+				866B281821A48DE5001F0CF2 /* Sources */,
+				866B281921A48DE5001F0CF2 /* Frameworks */,
+				866B281A21A48DE5001F0CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866B281E21A48DE5001F0CF2 /* PBXTargetDependency */,
+			);
+			name = DeepDungeronsOfDoomTests;
+			productName = DeepDungeronsOfDoomTests;
+			productReference = 866B281C21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		866B282621A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866B283621A48DE5001F0CF2 /* Build configuration list for PBXNativeTarget "DeepDungeronsOfDoomUITests" */;
+			buildPhases = (
+				866B282321A48DE5001F0CF2 /* Sources */,
+				866B282421A48DE5001F0CF2 /* Frameworks */,
+				866B282521A48DE5001F0CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866B282921A48DE5001F0CF2 /* PBXTargetDependency */,
+			);
+			name = DeepDungeronsOfDoomUITests;
+			productName = DeepDungeronsOfDoomUITests;
+			productReference = 866B282721A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866B280021A48DE4001F0CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Daniel Tarrasso";
+				TargetAttributes = {
+					866B280721A48DE4001F0CF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					866B281B21A48DE5001F0CF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 866B280721A48DE4001F0CF2;
+					};
+					866B282621A48DE5001F0CF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 866B280721A48DE4001F0CF2;
+					};
+				};
+			};
+			buildConfigurationList = 866B280321A48DE4001F0CF2 /* Build configuration list for PBXProject "DeepDungeronsOfDoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 866B27FF21A48DE4001F0CF2;
+			productRefGroup = 866B280921A48DE4001F0CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866B280721A48DE4001F0CF2 /* DeepDungeronsOfDoom */,
+				866B281B21A48DE5001F0CF2 /* DeepDungeronsOfDoomTests */,
+				866B282621A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866B280621A48DE4001F0CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866B281621A48DE5001F0CF2 /* LaunchScreen.storyboard in Resources */,
+				866B281321A48DE5001F0CF2 /* Assets.xcassets in Resources */,
+				866B281121A48DE4001F0CF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866B281A21A48DE5001F0CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866B282521A48DE5001F0CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866B280421A48DE4001F0CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868673B921A5A2CD001577D9 /* Item.swift in Sources */,
+				86C94E5921B6F5C400D62E85 /* Dice.swift in Sources */,
+				86C94E5B21B6FA8E00D62E85 /* PickerViewController.swift in Sources */,
+				868897B321AEDCD900FEA453 /* CreateGame.swift in Sources */,
+				868673B721A59FAF001577D9 /* Monster.swift in Sources */,
+				866B280E21A48DE4001F0CF2 /* ViewController.swift in Sources */,
+				866B280C21A48DE4001F0CF2 /* AppDelegate.swift in Sources */,
+				866B283A21A48EBA001F0CF2 /* Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866B281821A48DE5001F0CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866B282121A48DE5001F0CF2 /* DeepDungeronsOfDoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866B282321A48DE5001F0CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866B282C21A48DE5001F0CF2 /* DeepDungeronsOfDoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		866B281E21A48DE5001F0CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866B280721A48DE4001F0CF2 /* DeepDungeronsOfDoom */;
+			targetProxy = 866B281D21A48DE5001F0CF2 /* PBXContainerItemProxy */;
+		};
+		866B282921A48DE5001F0CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866B280721A48DE4001F0CF2 /* DeepDungeronsOfDoom */;
+			targetProxy = 866B282821A48DE5001F0CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		866B280F21A48DE4001F0CF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866B281021A48DE4001F0CF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		866B281421A48DE5001F0CF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866B281521A48DE5001F0CF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		866B282E21A48DE5001F0CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		866B282F21A48DE5001F0CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		866B283121A48DE5001F0CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeronsOfDoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Danielo.DeepDungeronsOfDoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		866B283221A48DE5001F0CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeronsOfDoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Danielo.DeepDungeronsOfDoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		866B283421A48DE5001F0CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeronsOfDoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Danielo.DeepDungeronsOfDoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDungeronsOfDoom.app/DeepDungeronsOfDoom";
+			};
+			name = Debug;
+		};
+		866B283521A48DE5001F0CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeronsOfDoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Danielo.DeepDungeronsOfDoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDungeronsOfDoom.app/DeepDungeronsOfDoom";
+			};
+			name = Release;
+		};
+		866B283721A48DE5001F0CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeronsOfDoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Danielo.DeepDungeronsOfDoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepDungeronsOfDoom;
+			};
+			name = Debug;
+		};
+		866B283821A48DE5001F0CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeronsOfDoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Danielo.DeepDungeronsOfDoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepDungeronsOfDoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866B280321A48DE4001F0CF2 /* Build configuration list for PBXProject "DeepDungeronsOfDoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866B282E21A48DE5001F0CF2 /* Debug */,
+				866B282F21A48DE5001F0CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866B283021A48DE5001F0CF2 /* Build configuration list for PBXNativeTarget "DeepDungeronsOfDoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866B283121A48DE5001F0CF2 /* Debug */,
+				866B283221A48DE5001F0CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866B283321A48DE5001F0CF2 /* Build configuration list for PBXNativeTarget "DeepDungeronsOfDoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866B283421A48DE5001F0CF2 /* Debug */,
+				866B283521A48DE5001F0CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866B283621A48DE5001F0CF2 /* Build configuration list for PBXNativeTarget "DeepDungeronsOfDoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866B283721A48DE5001F0CF2 /* Debug */,
+				866B283821A48DE5001F0CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 866B280021A48DE4001F0CF2 /* Project object */;
+}
