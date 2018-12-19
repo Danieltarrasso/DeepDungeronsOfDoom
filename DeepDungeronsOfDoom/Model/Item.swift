@@ -15,14 +15,16 @@ class Item{
     var defense:Int
     var magic:Int
     var luck:Int
+    var cost:Double
     var image:UIImage
     
-    init(name:String ,attack:Int, defense:Int, magic:Int, luck:Int, image:UIImage) {
+    init(name:String ,attack:Int, defense:Int, magic:Int, luck:Int, cost:Double, image:UIImage) {
         self.name = name
         self.attack = attack
         self.defense = defense
         self.magic = magic
         self.luck = luck
+        self.cost = cost
         self.image = image
     }
     
@@ -40,6 +42,9 @@ class Item{
     
     public func getLuck() -> Int { return luck }
     public func setLuck(nwLuck:Int) { self.luck = nwLuck }
+    
+    public func getCost() -> Double { return cost }
+    public func setCost(nwCost:Double) { self.cost = nwCost }
     
     public func getImage() -> UIImage { return image }
     public func setImage(nwImage:UIImage) { self.image = nwImage }

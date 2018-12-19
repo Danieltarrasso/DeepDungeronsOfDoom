@@ -400,6 +400,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upo-73-DNk">
                                 <rect key="frame" x="16" y="249" width="342" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="aHN-gE-ZwD" kind="show" id="Zv8-Jt-5xD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.32156862745098042" green="0.27058823529411763" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -409,6 +412,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lSd-pV-YZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="584.79999999999995" y="-143.47826086956522"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="20x-6d-2j7">
+            <objects>
+                <viewController id="aHN-gE-ZwD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NHT-7t-7Zy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inventory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Md1-yN-J8S">
+                                <rect key="frame" x="148" y="38" width="79" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preset_backpack" translatesAutoresizingMaskIntoConstraints="NO" id="go4-QR-OGZ">
+                                <rect key="frame" x="149" y="97" width="76" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preset_backpack" translatesAutoresizingMaskIntoConstraints="NO" id="qWs-bs-WOv">
+                                <rect key="frame" x="64" y="188" width="76" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preset_backpack" translatesAutoresizingMaskIntoConstraints="NO" id="5Jr-AN-W6h">
+                                <rect key="frame" x="149" y="188" width="76" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preset_backpack" translatesAutoresizingMaskIntoConstraints="NO" id="dF0-Ea-rhG">
+                                <rect key="frame" x="233" y="188" width="76" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preset_backpack" translatesAutoresizingMaskIntoConstraints="NO" id="XnE-Tz-l3j">
+                                <rect key="frame" x="149" y="281" width="76" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back_heroe" translatesAutoresizingMaskIntoConstraints="NO" id="kMR-hm-eUX">
+                                <rect key="frame" x="16" y="416" width="344" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNG-ae-wHW">
+                                <rect key="frame" x="16" y="26" width="48" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59277839467005078" green="0.54646904039399602" blue="0.5663617550243234" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.21587940855625865" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.30492188570000001" green="0.77764819460000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bL1-IN-eL1" kind="show" id="dfN-s5-9jf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32175445930000002" green="0.27131350040000002" blue="0.34004001509999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IJo-7y-XM0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="udZ-Gp-6b6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1408.8" y="-143.47826086956522"/>
         </scene>
     </scenes>
     <resources>
@@ -423,8 +486,9 @@
         <image name="lucky" width="56" height="57"/>
         <image name="magic" width="56" height="57"/>
         <image name="money" width="56" height="57"/>
+        <image name="preset_backpack" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="LzU-pu-z0Q"/>
+        <segue reference="kKN-Qv-uhU"/>
     </inferredMetricsTieBreakers>
 </document>
